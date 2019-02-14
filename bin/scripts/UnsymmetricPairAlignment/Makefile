@@ -1,3 +1,3 @@
 all:
 	swig -python UnsymmetricPairAlignment.i
-	python setup.py build_ext --inplace
+	python2.7 setup.py build_ext --inplace
